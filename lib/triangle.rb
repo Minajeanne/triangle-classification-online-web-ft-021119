@@ -20,12 +20,12 @@ class Triangle
         rescue TriangleError => error
           puts error.message
       end
-    elsif (@side_1 + @side_2) == (@side_2 + @side_3)
+      else (@side_1 + @side_2) == (@side_2 + @side_3)
         :equilateral
       elsif (@side_1 == @side_2) || (@side_2 == @side_3) || (@side_1 == @side_3)
         :isosceles
       elsif (@side_1 != @side_2) && (@side_2 != @side_3) && (@side_1 != @side_3)
-        :scalene    
+        :scalene
     end
   end
 
