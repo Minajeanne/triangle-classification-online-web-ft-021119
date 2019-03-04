@@ -28,10 +28,5 @@ class Triangle
     def message
       "Illegal triangle"
     end
-
-
-
   end
-
-
 end
