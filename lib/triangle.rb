@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind(triangle)
-
+    if self.triangle.size == 
   end
 
   class TriangleError < StandardError
