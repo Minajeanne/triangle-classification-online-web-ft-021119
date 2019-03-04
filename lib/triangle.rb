@@ -13,7 +13,9 @@ class Triangle
 
   class TriangleError < StandardError
 
-    def message(error)
+    def message
+      "xyz"
+    end
 
 
 
