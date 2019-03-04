@@ -8,7 +8,8 @@ class Triangle
   end
 
   def kind(triangle)
-    if (@side_1 + @side_2) == (@side_3 + @side_1)
+    if (@side_1 + @side_2) == (@side_2 + @side_3)
+      :
   end
 
   class TriangleError < StandardError
