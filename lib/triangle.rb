@@ -13,7 +13,7 @@ class Triangle
         rescue TriangleError => error
           puts error.message
       end
-    elsif (@side_2 + @side_3 <= @side_1) || (@side_3 + @side_1 <= @side_2) || (@side_2 + @side_1 <= @side_3)
+    else (@side_2 + @side_3 <= @side_1) || (@side_3 + @side_1 <= @side_2) || (@side_2 + @side_1 <= @side_3)
       raise TriangleError
         rescue TriangleError => error
           puts error.message
