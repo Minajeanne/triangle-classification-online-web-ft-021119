@@ -36,7 +36,3 @@ class Triangle
     end
   end
 end
-
-raise PartnerError
-     rescue PartnerError => error
-         puts error.message
