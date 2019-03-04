@@ -18,7 +18,6 @@ class Triangle
       raise TriangleError
       else (@side_2 + @side_3 <= @side_1) || (@side_3 + @side_1 <= @side_2) || (@side_2 + @side_1 <= @side_3)
       raise TriangleError
-      end
     end
   end
 
